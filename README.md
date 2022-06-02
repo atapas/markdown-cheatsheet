@@ -77,12 +77,12 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
 ## 🟣 Image
 
-![GreenRoots Blog](./static/500x500.png)
+![GreenRoots Blog](static/500x500.png)
 
 ## 🟣 Linking an Image
 The syntax is `[![alt text][image]][hyperlink]`
 
-[![GreenRoots Blog](./static/500x500.png)](https://blog.greenroots.info)
+[![GreenRoots Blog](static/500x500.png)](https://blog.greenroots.info)
 
 ## 🟣 Emojis
 
@@ -95,7 +95,27 @@ The syntax is `[![alt text][image]][hyperlink]`
 | Mango | :mango: |
 | Lemon | :lemon: |
 
+## 🟣 Table - With Alignments
+
+| Fruit(left)      | Emoji(center) | Taste(right)     |
+| :---        |    :----:   |          ---: |
+| Mango is the king of Fruits      | :mango:       | Sweet and I love it  |
+| Lemon is good for health   | :lemon:        | Sour, mix it in the water     |
+
 ## 🟣 Horizontal Line
 
 ---
+
+## 🟣 HTMLs
+
+<p align="center">
+ Yes, you can use allowed raw HTML in mark-down file.
+ This is a paragraph aligned in the center
+</p>
+
+## 🟣 Embed YouTube
+
+[![Forking a Repo](static/Merge-Conflicts.png)](https://www.youtube.com/watch?v=OulZeVtZhZQ)
+
+
 
