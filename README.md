@@ -115,7 +115,7 @@ The syntax is `[![alt text][image]][hyperlink]`
 
 ## 🟣 Embed YouTube
 
-[![Forking a Repo](static/Merge-Conflicts.png)](https://www.youtube.com/watch?v=OulZeVtZhZQ)
+[![Forking a Repo](https://res.cloudinary.com/atapas/image/upload/v1654144800/demos/Merge-Conflicts_vtk8on.png)](https://www.youtube.com/watch?v=OulZeVtZhZQ)
 
 
 
