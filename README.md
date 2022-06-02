@@ -2,8 +2,6 @@
 # Table of Contents
 ` markdown-cheatsheet` is a single place for all the markdown syntaxes I have learned so far. Sharing publicly so that you also know about them and use.
 
-> Just fork the repository and open the file in edit mode to see all the syntaxes.
-
 1. [Headings](#headings)
 2. [Code](#code)
 3. [Unordered List of Items](#unordered-list-of-items)
@@ -23,13 +21,15 @@
 17. [Table With Alignments](#table-with-alignments)
 18. [Horizontal Line](#horizontal-line)
 19. [HTML](#html)
-20. [Embed YouTube Video](#embed-youTube-video)
+20. [Embed YouTube Video](#embed-youtube-video)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(тнР)
 
 [![Stargazers repo roster for @atapas/markdown-cheatsheet](https://reporoster.com/stars/atapas/markdown-cheatsheet)](https://github.com/atapas/markdown-cheatsheet/stargazers)
 
 ## Headings
+
+**Syntax:**
 
 ```
 # H1 - Heading 1
@@ -39,6 +39,7 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 ##### H5 - Heading 5
 ###### H6 - Heading 6
 ```
+**Output:**
 
 # H1 - Heading 1
 ## H2 - Heading 2
@@ -49,15 +50,27 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 
 ## Code
 
+**Syntax:**
+
+```
+`This is Code`
+```
+
+**Output:**
+
 `This is Code`
 
 ## Unordered List of Items
+
+**Syntax:**
 
 ```
 - Milk
 - Tea
 - Beer
 ```
+
+**Output:**
 
 - Milk
 - Tea
@@ -65,11 +78,15 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 
 ## Ordered List of Items
 
+**Syntax:**
+
 ```
 1. Eat
 1. Walk
 1. Sleep
 ```
+
+**Output:**
 
 1. Eat
 1. Walk
@@ -77,11 +94,15 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 
 ## CheckBox Task List
 
+**Syntax:**
+
 ```
 - [X] Code
 - [ ] Review
 - [ ] Commit
 ```
+
+**Output:**
 
 - [X] Code
 - [ ] Review
@@ -106,75 +127,115 @@ echo 1
 
 ## Strikethrough Text
 
+**Syntax:**
+
 ```
 ~~Sharing is NOT about Caring.~~
 ```
+
+**Output:**
 
 ~~Sharing is NOT about Caring.~~
 
 ## Blockquote Text
 
+**Syntax:**
+
 ```
 > When I say something, I mean it. When I mean it, I do it. When I do, I may fail. When I fail, I start talking about it again!
 ```
+
+**Output:**
 
 > When I say something, I mean it. When I mean it, I do it. When I do, I may fail. When I fail, I start talking about it again!
 
 ## Bold
 
+**Syntax:**
+
 ```
 **DO NOT UNDERESTIMATE THE POWER OF A PROGRAMMER.**
 ```
+
+**Output:**
 
 **DO NOT UNDERESTIMATE THE POWER OF A PROGRAMMER.**
 
 ## Italic
+
+**Syntax:**
+
 ```
 *It is Written in Italics*
 ```
+
+**Output:**
 
 *It is Written in Italics*
 
 ## Bold and Italic
 
+**Syntax:**
+
 ```
 ***You Can Combine Bold and Italics***
 ```
+
+**Output:**
 
 ***You Can Combine Bold and Italics***
 
 ## Link
 
+**Syntax:**
+
 ```
 Did you know I have [Website](https://tapasadhikary.com)?
 ```
+
+**Output:**
 
 Did you know I have [Website](https://tapasadhikary.com)?
 
 ## Image
 
+**Syntax:**
+
 ```
 ![alt text](image)
 ```
 
+**Output:**
+
 ![GreenRoots Blog](https://res.cloudinary.com/atapas/image/upload/v1598936159/profile/500x500_oklccx.png)
 
 ## Linking an Image
+
+**Syntax:**
+
 ```
 [![alt text][image]][hyperlink]
 ```
+
+**Output:**
 
 [![GreenRoots Blog](https://res.cloudinary.com/atapas/image/upload/v1598936159/profile/500x500_oklccx.png)](https://blog.greenroots.info)
 
 ## Emojis
 
+**Syntax:**
+
 ```
 :mango: :lemon: :man: :car:
 ```
+
+**Output:**
 
 :mango: :lemon: :man: :car:
 
 ## Table
+
+**Syntax:**
 
 ```
 | Fruit | Emoji |
@@ -182,6 +243,9 @@ Did you know I have [Website](https://tapasadhikary.com)?
 | Mango | :mango: |
 | Lemon | :lemon: |
 ```
+
+**Output:**
+
 
 | Fruit | Emoji |
 | ----------- | ----------- |
@@ -190,12 +254,16 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
 ## Table With Alignments
 
+**Syntax:**
+
 ```
 | Fruit(left)      | Emoji(center) | Taste(right)     |
 | :---        |    :----:   |          ---: |
 | Mango is the king of Fruits      | :mango:       | Sweet and I love it  |
 | Lemon is good for health   | :lemon:        | Sour, mix it in the water     |
 ```
+
+**Output:**
 
 | Fruit(left)      | Emoji(center) | Taste(right)     |
 | :---        |    :----:   |          ---: |
@@ -204,13 +272,19 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
 ## Horizontal Line
 
+**Syntax:**
+
 ```
 ---
 ```
+
+**Output:**
 
 ---
 
 ## HTML
+
+**Syntax:**
 
 ```
 <p align="center">
@@ -218,6 +292,8 @@ Did you know I have [Website](https://tapasadhikary.com)?
  This is a paragraph aligned in the center.
 </p>
 ```
+
+**Output:**
 
 <p align="center">
  Yes, you can use allowed raw HTML in mark-down file.
@@ -231,9 +307,13 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
 ## Embed YouTube Video
 
+**Syntax:**
+
 ```
 [![Alt Text](Thumbnail Image)](YOUTUBE VIDEO LINK)
 ```
+
+**Output:**
 
 [![Forking a Repo](https://res.cloudinary.com/atapas/image/upload/v1654144800/demos/Merge-Conflicts_vtk8on.png)](https://www.youtube.com/watch?v=OulZeVtZhZQ)
 
