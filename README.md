@@ -233,6 +233,8 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
 :mango: :lemon: :man: :car: :fearful:
 
+> NOTE: If you want to more emojis you can type : and type a word to search for emojis like this ``` :mango: ```
+
 ## Table
 
 **Syntax:**
