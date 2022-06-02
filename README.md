@@ -25,6 +25,10 @@
 19. [HTML](#html)
 20. [Embed YouTube Video](#embed-youTube-video)
 
+Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
+
+[![Stargazers repo roster for @atapas/markdown-cheatsheet](https://reporoster.com/stars/atapas/markdown-cheatsheet)](https://github.com/atapas/markdown-cheatsheet/stargazers)
+
 ## Headings
 
 # H1 - Heading 1
