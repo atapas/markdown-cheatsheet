@@ -8,7 +8,7 @@
 2. [Code](#code)
 3. [Unordered List of Items](#unordered-list-of-items)
 4. [Ordered List of Items](#ordered-list-of-items)
-5. [CheckBox Task List](#checkBox-task-list)
+5. [CheckBox Task List](#checkbox-task-list)
 6. [Code Block](#code-block)
 7. [Strikethrough Text](#strikethrough-text)
 8. [Blockquote Text](#blockquote-text)
@@ -31,6 +31,15 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 
 ## Headings
 
+```
+# H1 - Heading 1
+## H2 - Heading 2
+### H3 - Heading 3
+#### H4 - Heading 4
+##### H5 - Heading 5
+###### H6 - Heading 6
+```
+
 # H1 - Heading 1
 ## H2 - Heading 2
 ### H3 - Heading 3
@@ -44,17 +53,35 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 
 ## Unordered List of Items
 
+```
+- Milk
+- Tea
+- Beer
+```
+
 - Milk
 - Tea
 - Beer
 
 ## Ordered List of Items
 
+```
+1. Eat
+1. Walk
+1. Sleep
+```
+
 1. Eat
 1. Walk
 1. Sleep
 
 ## CheckBox Task List
+
+```
+- [X] Code
+- [ ] Review
+- [ ] Commit
+```
 
 - [X] Code
 - [ ] Review
@@ -79,42 +106,82 @@ echo 1
 
 ## Strikethrough Text
 
+```
+~~Sharing is NOT about Caring.~~
+```
+
 ~~Sharing is NOT about Caring.~~
 
 ## Blockquote Text
+
+```
+> When I say something, I mean it. When I mean it, I do it. When I do, I may fail. When I fail, I start talking about it again!
+```
 
 > When I say something, I mean it. When I mean it, I do it. When I do, I may fail. When I fail, I start talking about it again!
 
 ## Bold
 
+```
+**DO NOT UNDERESTIMATE THE POWER OF A PROGRAMMER.**
+```
+
 **DO NOT UNDERESTIMATE THE POWER OF A PROGRAMMER.**
 
 ## Italic
+```
+*It is Written in Italics*
+```
 
 *It is Written in Italics*
 
 ## Bold and Italic
 
+```
+***You Can Combine Bold and Italics***
+```
+
 ***You Can Combine Bold and Italics***
 
 ## Link
+
+```
+Did you know I have [Website](https://tapasadhikary.com)?
+```
 
 Did you know I have [Website](https://tapasadhikary.com)?
 
 ## Image
 
+```
+![alt text](image)
+```
+
 ![GreenRoots Blog](https://res.cloudinary.com/atapas/image/upload/v1598936159/profile/500x500_oklccx.png)
 
 ## Linking an Image
-The syntax is `[![alt text][image]][hyperlink]`
+```
+[![alt text][image]][hyperlink]
+```
 
 [![GreenRoots Blog](https://res.cloudinary.com/atapas/image/upload/v1598936159/profile/500x500_oklccx.png)](https://blog.greenroots.info)
 
 ## Emojis
 
+```
+:mango: :lemon: :man: :car:
+```
+
 :mango: :lemon: :man: :car:
 
 ## Table
+
+```
+| Fruit | Emoji |
+| ----------- | ----------- |
+| Mango | :mango: |
+| Lemon | :lemon: |
+```
 
 | Fruit | Emoji |
 | ----------- | ----------- |
@@ -123,6 +190,13 @@ The syntax is `[![alt text][image]][hyperlink]`
 
 ## Table With Alignments
 
+```
+| Fruit(left)      | Emoji(center) | Taste(right)     |
+| :---        |    :----:   |          ---: |
+| Mango is the king of Fruits      | :mango:       | Sweet and I love it  |
+| Lemon is good for health   | :lemon:        | Sour, mix it in the water     |
+```
+
 | Fruit(left)      | Emoji(center) | Taste(right)     |
 | :---        |    :----:   |          ---: |
 | Mango is the king of Fruits      | :mango:       | Sweet and I love it  |
@@ -130,9 +204,20 @@ The syntax is `[![alt text][image]][hyperlink]`
 
 ## Horizontal Line
 
+```
+---
+```
+
 ---
 
 ## HTML
+
+```
+<p align="center">
+ Yes, you can use allowed raw HTML in mark-down file.
+ This is a paragraph aligned in the center.
+</p>
+```
 
 <p align="center">
  Yes, you can use allowed raw HTML in mark-down file.
@@ -146,7 +231,9 @@ The syntax is `[![alt text][image]][hyperlink]`
 
 ## Embed YouTube Video
 
-The syntax is `[![Alt Text](Thumbnail Image)](YOUTUBE VIDEO LINK)`
+```
+[![Alt Text](Thumbnail Image)](YOUTUBE VIDEO LINK)
+```
 
 [![Forking a Repo](https://res.cloudinary.com/atapas/image/upload/v1654144800/demos/Merge-Conflicts_vtk8on.png)](https://www.youtube.com/watch?v=OulZeVtZhZQ)
 
