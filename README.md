@@ -14,7 +14,7 @@
 8. [Blockquote Text](#blockquote-text)
 9. [Bold](#bold)
 10. [Italic](#italic)
-11. [Bold and Italic](#boldand-italic)
+11. [Bold and Italic](#bold-and-italic)
 12. [Link](#link)
 13. [Image](#image)
 14. [Linking an Image](#linking-an-image)
