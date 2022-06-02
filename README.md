@@ -110,10 +110,17 @@ The syntax is `[![alt text][image]][hyperlink]`
 
 <p align="center">
  Yes, you can use allowed raw HTML in mark-down file.
- This is a paragraph aligned in the center
+ This is a paragraph aligned in the center.
 </p>
 
+<details>
+    <summary>Heading</summary>
+    The details are here.
+</details>
+
 ## 🟣 Embed YouTube
+
+The syntax is `[![Alt Text](Thumbnail Image)](YOUTUBE VIDEO LINK)`
 
 [![Forking a Repo](https://res.cloudinary.com/atapas/image/upload/v1654144800/demos/Merge-Conflicts_vtk8on.png)](https://www.youtube.com/watch?v=OulZeVtZhZQ)
 
