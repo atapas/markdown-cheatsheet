@@ -77,12 +77,12 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
 ## 🟣 Image
 
-![GreenRoots Blog](static/500x500.png)
+![GreenRoots Blog](https://res.cloudinary.com/atapas/image/upload/v1598936159/profile/500x500_oklccx.png)
 
 ## 🟣 Linking an Image
 The syntax is `[![alt text][image]][hyperlink]`
 
-[![GreenRoots Blog](static/500x500.png)](https://blog.greenroots.info)
+[![GreenRoots Blog](https://res.cloudinary.com/atapas/image/upload/v1598936159/profile/500x500_oklccx.png)](https://blog.greenroots.info)
 
 ## 🟣 Emojis
 
