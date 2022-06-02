@@ -226,12 +226,12 @@ Did you know I have [Website](https://tapasadhikary.com)?
 **Syntax:**
 
 ```
-:mango: :lemon: :man: :car:
+:mango: :lemon: :man: :car: :fearful:
 ```
 
 **Output:**
 
-:mango: :lemon: :man: :car:
+:mango: :lemon: :man: :car: :fearful:
 
 ## Table
 
