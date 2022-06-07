@@ -110,16 +110,48 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 
 ## Code Block
 
+**Syntax:**
+
+````
+```
+This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
+```
+````
+
+**Output:**
 ```
 This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
 ```
 
+In order to ***highlight the code***, you can add language name at the start of the backticks as in the following examples.
+
+**Example 1:**
+
+````
+```js
+function print() {
+ console.log('This is is a JavaScript Code Block');
+}
+```
+````
+
+**Output:**
 ```js
 function print() {
  console.log('This is is a JavaScript Code Block');
 }
 ```
 
+**Example 2:**
+
+````
+```bash
+# This is bash
+echo 1
+```
+````
+
+**Output:**
 ```bash
 # This is bash
 echo 1
