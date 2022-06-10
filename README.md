@@ -246,7 +246,7 @@ Did you know I have [Website](https://tapasadhikary.com)?
 **Syntax:**
 
 ```
-[![alt text][image]][hyperlink]
+[![alt text](image)](hyperlink)
 ```
 
 **Output:**
