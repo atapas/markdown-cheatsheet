@@ -76,6 +76,20 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 - Tea
 - Beer
 
+**Syntax:**
+
+```
+* JavaScript
+* TypeScript
+* ReactJs
+```
+
+**Output:**
+
+* JavaScript
+* TypeScript
+* ReactJs
+
 ## Ordered List of Items
 
 **Syntax:**
