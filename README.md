@@ -22,6 +22,7 @@
 18. [Horizontal Line](#horizontal-line)
 19. [HTML](#html)
 20. [Embed YouTube Video](#embed-youtube-video)
+21. [Mathematical Expressions](#mathematical-expressions)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -349,5 +350,46 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
 [![Forking a Repo](https://res.cloudinary.com/atapas/image/upload/v1654144800/demos/Merge-Conflicts_vtk8on.png)](https://www.youtube.com/watch?v=OulZeVtZhZQ)
 
+## Mathematical Expressions
+
+1. **Inline expressions:**
+
+    **Syntax**
+
+    ```plain
+    $<<mathematical expression>>$
+    ```
+
+    Replace `<<mathematical expression>>` with your expression.
+
+    **Example**
+
+    ```plain
+    $\sqrt{3}+1$
+    ```
+
+    **Output**
+
+    $\sqrt{3}+1$
+
+2. **Block Expressions:**
+
+    **Syntax**
+
+    ```plain
+    $$<<mathematical expression>>$$
+    ```
+
+    **Example**
+
+    ```plain
+    $$\sqrt{3}+1$$
+    ```
+
+    **Output**
+
+    $$\sqrt{3}+1$$
+
+For more information on how to write mathematical expressions, [visit this page](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
 
 
