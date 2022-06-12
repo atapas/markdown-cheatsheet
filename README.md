@@ -77,6 +77,7 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 - Beer
 
 **Syntax:**
+> This is an alternate syntax to create unordered list items.
 
 ```
 * JavaScript
