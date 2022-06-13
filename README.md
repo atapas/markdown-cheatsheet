@@ -77,6 +77,21 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 - Tea
 - Beer
 
+**Syntax:**
+> This is an alternate syntax to create unordered list items.
+
+```
+* JavaScript
+* TypeScript
+* ReactJs
+```
+
+**Output:**
+
+* JavaScript
+* TypeScript
+* ReactJs
+
 ## Ordered List of Items
 
 **Syntax:**
