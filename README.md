@@ -405,6 +405,22 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
     $$\sqrt{3}+1$$
 
+3. **Mixed Expressions:**
+
+    **Syntax**
+    
+    ```
+    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+    
+    $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+    ```
+
+    **Output**
+
+    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+    
+    $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
 For more information on how to write mathematical expressions, [visit this page](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
 
 
