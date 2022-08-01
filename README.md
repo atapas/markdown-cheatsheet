@@ -26,7 +26,7 @@
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
-[![Stargazers repo roster for @atapas/markdown-cheatsheet](https://reporoster.com/stars/atapas/markdown-cheatsheet)](https://github.com/atapas/markdown-cheatsheet/stargazers)
+[![Thanks to all stargazers](https://git-lister.onrender.com/api/stars/atapas/markdown-cheatsheet?limit=15)](https://github.com/atapas/markdown-cheatsheet/stargazers)
 
 ## Headings
 
