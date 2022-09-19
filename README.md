@@ -427,10 +427,10 @@ For more information on how to write mathematical expressions, [visit this page]
 ## DropDown
 
 1. DropDown with Open:
-**Syntax**
+<br>**Syntax**
 ```
 <details open>
-<summary>Want to know more? Click Here</summary>
+<summary>Want to know more? </summary>
 <br>
 This is called a DropDown.
 <br>Yes! This is possible using Markdown.
@@ -440,7 +440,7 @@ This is called a DropDown.
 ```
 **Output**
 <details open>
-<summary>Want to know more? Click Here</summary>
+<summary>Want to know more?</summary>
 <br>
 This is called a DropDown.
 <br>Yes! This is possible using Markdown.
@@ -451,6 +451,7 @@ This is called a DropDown.
 **Explanation**
 <br>The *details* tags are used to indicate that we want a dropdown.
 <br>The keyword *open* in details tag is causing the dropdown to stay opened even before the user clicks on it, which messes up the fun!
+<br>It looks like a question and answer - this is not our purpose, we fix this in the below example.
 <br>Between the *summary* tags, we write the heading/content to be displayed.
 <br>After *summary*, we can include the detailed content.
 <br>However, when a user clicks on the arrow, the detailed content gets hidden; with another the click, the content is displayed again.
