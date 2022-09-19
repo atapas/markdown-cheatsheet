@@ -448,9 +448,9 @@ This is called a DropDown.
 </details>
 
 **Explanation**
-The *details* tags are used to indicate that we want a dropdown.
-Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
-After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
+<br>The *details* tags are used to indicate that we want a dropdown.
+<br>Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
+<br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
 
 
 
