@@ -428,7 +428,7 @@ For more information on how to write mathematical expressions, [visit this page]
 
 **Syntax**
 ```
-<details open>
+<details>
 <summary>Want to know more? Click Here</summary>
 <br>
 This is called a DropDown.
@@ -438,16 +438,19 @@ This is called a DropDown.
 </details>
 ```
 **Output**
-<details open>
+<details>
 <summary>Want to know more? Click Here</summary>
 <br>
 This is called a DropDown.
 <br>Yes! This is possible using Markdown.
-
-
-
 <br>You can hide some content from the user.
 <br>They can view the detailed message only when they click.
 </details>
+**Explanation**
+The <details> and </details> tags are used to indicate that we want a dropdown.
+Between the <summary> and </summary> tags, we write the heading/content to be displayed inside or what we refer to as ***dropdown title***
+After <summary>, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
+
+
 
 
