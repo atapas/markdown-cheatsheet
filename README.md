@@ -457,7 +457,7 @@ This is called a DropDown.
 <br>However, when a user clicks on the arrow, the detailed content gets hidden; with another the click, the content is displayed again.
 
 2. DropDown without Open:
-**Syntax**
+<br>**Syntax**
 ```
 <details>
 <summary>Want to know more? Click Here</summary>
