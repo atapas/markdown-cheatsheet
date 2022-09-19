@@ -446,10 +446,12 @@ This is called a DropDown.
 <br>You can hide some content from the user.
 <br>They can view the detailed message only when they click.
 </details>
+
 **Explanation**
 ```
 The <details> tags are used to indicate that we want a dropdown.
-Between the <summary> tags, we write the heading/content to be displayed inside or what we refer to as ***dropdown title***
+Between the <summary> tags, we write the heading/content to be displayed inside or what we refer to as``` ***dropdown title***
+```
 After <summary>, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
 ```
 
