@@ -23,6 +23,7 @@
 19. [HTML](#html)
 20. [Embed YouTube Video](#embed-youtube-video)
 21. [Mathematical Expressions](#mathematical-expressions)
+22. [DropDown](#dropdown)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -422,5 +423,68 @@ Did you know I have [Website](https://tapasadhikary.com)?
     $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 For more information on how to write mathematical expressions, [visit this page](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
+
+## DropDown
+
+1. DropDown with Open:
+ <br>**Syntax**
+ ```
+ <details open>
+ <summary>Want to know more? </summary>
+ <br>
+ This is called a DropDown.
+ <br>Yes! This is possible using Markdown.
+ <br>You can hide some content from the user.
+ <br>They can view the detailed message only when they click.
+ </details>
+ ```
+ **Output**
+ <details open>
+ <summary>Want to know more?</summary>
+ <br>
+ This is called a DropDown.
+ <br>Yes! This is possible using Markdown.
+ <br>You can hide some content from the user.
+ <br>They can view the detailed message only when they click.
+ </details>
+
+ **Explanation**
+ <br>The *details* tags are used to indicate that we want a dropdown.
+ <br>The keyword *open* in details tag is causing the dropdown to stay opened even before the user clicks on it, which messes up the fun!
+ <br>It looks like a question and answer - this is not our purpose, we fix this in the below example.
+ <br>Between the *summary* tags, we write the heading/content to be displayed.
+ <br>After *summary*, we can include the detailed content.
+ <br>However, when a user clicks on the arrow, the detailed content gets hidden; with another the click, the content is displayed again.
+
+2. DropDown without Open:
+ <br>**Syntax**
+ ```
+ <details>
+ <summary>Want to know more? Click Here</summary>
+ <br>
+ This is called a DropDown.
+ <br>Yes! This is possible using Markdown.
+ <br>You can hide some content from the user.
+ <br>They can view the detailed message only when they click.
+ </details>
+ ```
+ **Output**
+ <details>
+ <summary>Want to know more? Click Here</summary>
+ <br>
+ This is called a DropDown.
+ <br>Yes! This is possible using Markdown.
+ <br>You can hide some content from the user.
+ <br>They can view the detailed message only when they click.
+ </details>
+
+ **Explanation**
+ <br>The *details* tags are used to indicate that we want a dropdown.
+ <br>This is what we require, the detailed content should be hidden initially. With a click, the information should be displayed.
+ <br>Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
+ <br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
+
+
+
 
 
