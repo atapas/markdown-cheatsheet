@@ -22,10 +22,12 @@
 18. [Horizontal Line](#horizontal-line)
 19. [HTML](#html)
 20. [Embed YouTube Video](#embed-youtube-video)
+21. [Mathematical Expressions](#mathematical-expressions)
+22. [DropDown](#dropdown)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(тнР)
 
-[![Stargazers repo roster for @atapas/markdown-cheatsheet](https://reporoster.com/stars/atapas/markdown-cheatsheet)](https://github.com/atapas/markdown-cheatsheet/stargazers)
+[![Thanks to all stargazers](https://git-lister.onrender.com/api/stars/atapas/markdown-cheatsheet?limit=15)](https://github.com/atapas/markdown-cheatsheet/stargazers)
 
 ## Headings
 
@@ -76,6 +78,21 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 - Tea
 - Beer
 
+**Syntax:**
+> This is an alternate syntax to create unordered list items.
+
+```
+* JavaScript
+* TypeScript
+* ReactJs
+```
+
+**Output:**
+
+* JavaScript
+* TypeScript
+* ReactJs
+
 ## Ordered List of Items
 
 **Syntax:**
@@ -110,16 +127,48 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 
 ## Code Block
 
+**Syntax:**
+
+````
+```
+This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
+```
+````
+
+**Output:**
 ```
 This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
 ```
 
+In order to ***highlight the code***, you can add language name at the start of the backticks as in the following examples.
+
+**Example 1:**
+
+````
+```js
+function print() {
+ console.log('This is is a JavaScript Code Block');
+}
+```
+````
+
+**Output:**
 ```js
 function print() {
  console.log('This is is a JavaScript Code Block');
 }
 ```
 
+**Example 2:**
+
+````
+```bash
+# This is bash
+echo 1
+```
+````
+
+**Output:**
 ```bash
 # This is bash
 echo 1
@@ -214,7 +263,7 @@ Did you know I have [Website](https://tapasadhikary.com)?
 **Syntax:**
 
 ```
-[![alt text][image]][hyperlink]
+[![alt text](image)](hyperlink)
 ```
 
 **Output:**
@@ -318,6 +367,126 @@ Did you know I have [Website](https://tapasadhikary.com)?
 **Output:**
 
 [![Forking a Repo](https://res.cloudinary.com/atapas/image/upload/v1654144800/demos/Merge-Conflicts_vtk8on.png)](https://www.youtube.com/watch?v=OulZeVtZhZQ)
+
+## Mathematical Expressions
+
+1. **Inline expressions:**
+
+    **Syntax**
+
+    ```plain
+    $<<mathematical expression>>$
+    ```
+
+    Replace `<<mathematical expression>>` with your expression.
+
+    **Example**
+
+    ```plain
+    $\sqrt{3}+1$
+    ```
+
+    **Output**
+
+    $\sqrt{3}+1$
+
+2. **Block Expressions:**
+
+    **Syntax**
+
+    ```plain
+    $$<<mathematical expression>>$$
+    ```
+
+    **Example**
+
+    ```plain
+    $$\sqrt{3}+1$$
+    ```
+
+    **Output**
+
+    $$\sqrt{3}+1$$
+
+3. **Mixed Expressions:**
+
+    **Syntax**
+    
+    ```
+    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+    
+    $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+    ```
+
+    **Output**
+
+    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+    
+    $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
+For more information on how to write mathematical expressions, [visit this page](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
+
+## DropDown
+
+1. DropDown with Open:
+ <br>**Syntax**
+ ```
+ <details open>
+ <summary>Want to know more? </summary>
+ <br>
+ This is called a DropDown.
+ <br>Yes! This is possible using Markdown.
+ <br>You can hide some content from the user.
+ <br>They can view the detailed message only when they click.
+ </details>
+ ```
+ **Output**
+ <details open>
+ <summary>Want to know more?</summary>
+ <br>
+ This is called a DropDown.
+ <br>Yes! This is possible using Markdown.
+ <br>You can hide some content from the user.
+ <br>They can view the detailed message only when they click.
+ </details>
+
+ **Explanation**
+ <br>The *details* tags are used to indicate that we want a dropdown.
+ <br>The keyword *open* in details tag is causing the dropdown to stay opened even before the user clicks on it, which messes up the fun!
+ <br>It looks like a question and answer - this is not our purpose, we fix this in the below example.
+ <br>Between the *summary* tags, we write the heading/content to be displayed.
+ <br>After *summary*, we can include the detailed content.
+ <br>However, when a user clicks on the arrow, the detailed content gets hidden; with another the click, the content is displayed again.
+
+2. DropDown without Open:
+ <br>**Syntax**
+ ```
+ <details>
+ <summary>Want to know more? Click Here</summary>
+ <br>
+ This is called a DropDown.
+ <br>Yes! This is possible using Markdown.
+ <br>You can hide some content from the user.
+ <br>They can view the detailed message only when they click.
+ </details>
+ ```
+ **Output**
+ <details>
+ <summary>Want to know more? Click Here</summary>
+ <br>
+ This is called a DropDown.
+ <br>Yes! This is possible using Markdown.
+ <br>You can hide some content from the user.
+ <br>They can view the detailed message only when they click.
+ </details>
+
+ **Explanation**
+ <br>The *details* tags are used to indicate that we want a dropdown.
+ <br>This is what we require, the detailed content should be hidden initially. With a click, the information should be displayed.
+ <br>Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
+ <br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
+
+
 
 
 
