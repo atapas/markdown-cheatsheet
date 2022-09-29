@@ -226,7 +226,7 @@ Did you know I have [Website](https://tapasadhikary.com)?
 **Syntax:**
 
 ```
-:mango: :lemon: :man: :car: :fearful:
+:mango: :lemon: :man: :car:
 ```
 
 **Output:**
