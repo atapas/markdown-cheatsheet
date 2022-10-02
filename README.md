@@ -24,6 +24,9 @@
 20. [Embed YouTube Video](#embed-youtube-video)
 21. [Mathematical Expressions](#mathematical-expressions)
 22. [DropDown](#dropdown)
+23. [Superscript](#superscript)
+24. [Subscript](#subscript)
+25. [Footnotes](#footnotes)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -484,7 +487,53 @@ For more information on how to write mathematical expressions, [visit this page]
  <br>Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
  <br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
 
+## Superscript
 
+**Code:**
+```
+x^2^
+```
+**Output:**
+
+x<sup>2</sup>
+
+**Note:** Some sites/applications don't support this so you have to use the HTML tags, to get superscript.
+
+**Code:**
+```
+x<sup>2</sup>
+```
+
+## Subscript
+
+**Code:**
+```
+CH~4~
+```
+**Output:**
+
+CH<sub>4</sub>
+
+**Note:** Some sites/applications don't support this(they consider this as strikethrough) so you have to use the HTML tags, to get subscript.
+
+**Code:**
+```
+CH<sub>4</sub>
+```
+
+## Footnotes
+
+**Code:**
+```
+Markdown is easy to learn.[^1]
+    [^1]: And it's fun too.
+```
+**Output:**
+
+Markdown is easy to learn.[^1]
+    [^1]: And it's fun too.
+
+**Note:** Some sites/applications don't support this.
 
 
 
