@@ -24,6 +24,8 @@
 20. [Embed YouTube Video](#embed-youtube-video)
 21. [Mathematical Expressions](#mathematical-expressions)
 22. [DropDown](#dropdown)
+23. [Highlight](#highlight)
+
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -424,6 +426,28 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
 For more information on how to write mathematical expressions, [visit this page](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
 
+4. **Subscript & Superscript:**
+
+    **Syntax**
+
+    ```
+    Testing <sub>subscript</sub> and <sup>superscript</sup>
+
+    Testing <sub>subscript <sub>subscript level 2</sub></sub>
+
+    Testing <sup>superscript <sup>superscript level 2</sup></sup>
+
+    ```
+    **Output**
+
+    Testing <sub>subscript</sub> and <sup>superscript</sup>
+
+    Testing <sub>subscript <sub>subscript level 2</sub></sub>
+
+    Testing <sup>superscript <sup>superscript level 2</sup></sup>
+
+
+
 ## DropDown
 
 1. DropDown with Open:
@@ -483,6 +507,19 @@ For more information on how to write mathematical expressions, [visit this page]
  <br>This is what we require, the detailed content should be hidden initially. With a click, the information should be displayed.
  <br>Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
  <br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
+
+
+## Highlight
+
+**Syntax:**
+
+```
+I need to highlight these <mark>very important words</mark>.
+
+```
+**Output:**
+
+I need to highlight these <mark>very important words</mark>.
 
 
 
