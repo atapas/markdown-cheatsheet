@@ -24,7 +24,7 @@
 20. [Embed YouTube Video](#embed-youtube-video)
 21. [Mathematical Expressions](#mathematical-expressions)
 22. [DropDown](#dropdown)
-23. [Highlight](#highlight)
+23. [Definition Lists](#definition-lists)
 
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
@@ -487,17 +487,33 @@ For more information on how to write mathematical expressions, [visit this page]
  <br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
 
 
-## Highlight
+## Definition Lists
 
 **Syntax:**
 
 ```
-I need to highlight these <mark>very important words</mark>.
+<dl>
+  <dt><strong>Lower cost</strong></dt>
+  <dd>The new version of this product costs significantly less than the previous one!</dd>
+  <dt><strong>Easier to use</strong></dt>
+  <dd>We've changed the product so that it's much easier to use!</dd>
+  <dt><strong>Safe for kids</strong></dt>
+  <dd>You can leave your kids alone in a room with this product and they
+      won't get hurt (not a guarantee).</dd>
+</dl>
 
 ```
 **Output:**
 
-I need to highlight these <mark>very important words</mark>.
+<dl>
+  <dt><strong>Lower cost</strong></dt>
+  <dd>The new version of this product costs significantly less than the previous one!</dd>
+  <dt><strong>Easier to use</strong></dt>
+  <dd>We've changed the product so that it's much easier to use!</dd>
+  <dt><strong>Safe for kids</strong></dt>
+  <dd>You can leave your kids alone in a room with this product and they
+      won't get hurt (not a guarantee).</dd>
+</dl>
 
 
 
