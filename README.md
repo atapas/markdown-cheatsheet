@@ -426,28 +426,6 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
 For more information on how to write mathematical expressions, [visit this page](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
 
-4. **Subscript & Superscript:**
-
-    **Syntax**
-
-    ```
-    Testing <sub>subscript</sub> and <sup>superscript</sup>
-
-    Testing <sub>subscript <sub>subscript level 2</sub></sub>
-
-    Testing <sup>superscript <sup>superscript level 2</sup></sup>
-
-    ```
-    **Output**
-
-    Testing <sub>subscript</sub> and <sup>superscript</sup>
-
-    Testing <sub>subscript <sub>subscript level 2</sub></sub>
-
-    Testing <sup>superscript <sup>superscript level 2</sup></sup>
-
-
-
 ## DropDown
 
 1. DropDown with Open:
