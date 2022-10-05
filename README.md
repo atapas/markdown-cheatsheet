@@ -24,6 +24,8 @@
 20. [Embed YouTube Video](#embed-youtube-video)
 21. [Mathematical Expressions](#mathematical-expressions)
 22. [DropDown](#dropdown)
+23. [FootNote](#footnote)
+
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -484,7 +486,27 @@ For more information on how to write mathematical expressions, [visit this page]
  <br>Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
  <br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
 
+## FootNote
 
+**Explanation:**
+<br>Footnotes allow you to add notes and references without cluttering the body of the document. 
+<br>When you create a footnote, a superscript number with a link appears where you added the footnote reference. 
+<br>Readers can click the link to jump to the content of the footnote at the bottom of the page.
 
+**Syntax:**
 
+```
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+```
+**Output:**
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
