@@ -25,7 +25,9 @@
 21. [Mathematical Expressions](#mathematical-expressions)
 22. [DropDown](#dropdown)
 23. [Diagrams](#diagrams)
-24. [FootNote](#footnote)
+24. [Note Blockquote](#note-blockquote)
+25. [Warning Blockquote](#warning-blockquote)
+26. [FootNote](#footnote)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -575,6 +577,30 @@ RL variant
             C-->D;
             D-->E;
 ```
+
+## Note Blockquote
+
+**Syntax:**
+
+```
+> **Note**
+> This is a note
+```
+
+**Output:**
+> **Note**
+> This is a note
+
+## Warning Blockquote
+
+```
+> **Warning**
+> This is a warning
+```
+
+**Output:**
+> **Warning**
+> This is a warning
 
 ## FootNote
 
