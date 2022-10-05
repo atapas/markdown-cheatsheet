@@ -489,7 +489,30 @@ For more information on how to write mathematical expressions, [visit this page]
 
 **Syntax:**
 - Use the *mermaid* syntax
-- Additional syntax: TD means Top Down, LR means Left Right, TB means Top Bottom, RL means Right Left 
+- Additional syntax: TD means Top Down, LR means Left Right, BT means Bottom Top, RL means Right Left 
+
+TD variant
+```
+    ```mermaid
+        graph TD;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
+
+**Output:**
+
+ ```mermaid
+        graph TD;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
+
+LR variant
 ```
     ```mermaid
         graph LR;
@@ -504,6 +527,48 @@ For more information on how to write mathematical expressions, [visit this page]
 
  ```mermaid
         graph LR;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
+
+BT variant
+```
+    ```mermaid
+        graph BT;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
+
+**Output:**
+
+ ```mermaid
+        graph BT;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
+
+RL variant
+```
+    ```mermaid
+        graph RL;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
+
+**Output:**
+
+ ```mermaid
+        graph RL;
             A-->B;
             B-->C;
             C-->D;
