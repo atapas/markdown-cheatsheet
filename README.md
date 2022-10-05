@@ -24,6 +24,7 @@
 20. [Embed YouTube Video](#embed-youtube-video)
 21. [Mathematical Expressions](#mathematical-expressions)
 22. [DropDown](#dropdown)
+23. [Diagrams](#diagrams)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -484,7 +485,27 @@ For more information on how to write mathematical expressions, [visit this page]
  <br>Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
  <br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
 
+## Diagrams
 
+**Syntax:**
+- Use the *mermaid* syntax
+- Additional syntax: TD means Top Down, LR means Left Right, TB means Top Bottom, RL means Right Left 
+```
+    ```mermaid
+        graph LR;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
 
+**Output:**
 
-
+ ```mermaid
+        graph LR;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
