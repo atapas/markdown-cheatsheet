@@ -24,8 +24,8 @@
 20. [Embed YouTube Video](#embed-youtube-video)
 21. [Mathematical Expressions](#mathematical-expressions)
 22. [DropDown](#dropdown)
-23. [FootNote](#footnote)
-
+23. [Diagrams](#diagrams)
+24. [FootNote](#footnote)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -485,6 +485,96 @@ For more information on how to write mathematical expressions, [visit this page]
  <br>This is what we require, the detailed content should be hidden initially. With a click, the information should be displayed.
  <br>Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
  <br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
+
+## Diagrams
+
+**Syntax:**
+- Use the *mermaid* syntax
+- Additional syntax: TD means Top Down, LR means Left Right, BT means Bottom Top, RL means Right Left 
+
+TD variant
+```
+    ```mermaid
+        graph TD;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
+
+**Output:**
+
+ ```mermaid
+        graph TD;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
+
+LR variant
+```
+    ```mermaid
+        graph LR;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
+
+**Output:**
+
+ ```mermaid
+        graph LR;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
+
+BT variant
+```
+    ```mermaid
+        graph BT;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
+
+**Output:**
+
+ ```mermaid
+        graph BT;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
+
+RL variant
+```
+    ```mermaid
+        graph RL;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
+
+**Output:**
+
+ ```mermaid
+        graph RL;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
 
 ## FootNote
 
