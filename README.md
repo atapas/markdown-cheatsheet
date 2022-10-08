@@ -609,7 +609,3 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 ```
 [//]: # (Insert your hidden comment)
 ```
-
-**Output:**
-
-[//]: # (Insert your hidden comment)
