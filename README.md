@@ -581,6 +581,7 @@ RL variant
 ## Table of Contents
 
 **Explanation**
+
 You can create a table of contents just like the one at the start of this cheet sheet with the following syntax:
 ```
 [text that you want to display](#name-of-section-link)
