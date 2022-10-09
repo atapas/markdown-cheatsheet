@@ -26,6 +26,7 @@
 22. [DropDown](#dropdown)
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
+25. [Table of Contents](#toc)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -576,6 +577,34 @@ RL variant
             D-->E;
 ```
 
+<a id="toc"></a>
+## Table of Contents
+
+**Explanation**
+
+You can create a table of contents just like the one at the start of this cheet sheet with the following syntax:
+```
+[text that you want to display](#name-of-section-link)
+ 
+[Make sure to space items with a line](#section-two)
+```
+Then, in the section that you want to link to, put `<a id="name-of-section-link></a>`. Make sure that the text inside the parentheses in the table of contents item matches the id:
+```
+<a id="name-of-section-link"></a>
+## text that you want to display
+```
+**Output:**
+ 
+[text that you want to display](#name-of-section-link)
+ 
+[Make sure to space items with a line](#section-two)
+
+<a id="name-of-section-link"></a>
+## Item one
+
+<a id="section-two"></a>
+## Item two
+
 ## FootNote
 
 **Explanation:**
@@ -600,3 +629,4 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 [^1]: This is the first footnote.
 
 [^bignote]: Here's one with multiple paragraphs and code.
+
