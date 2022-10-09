@@ -580,7 +580,7 @@ RL variant
 <a id="toc"></a>
 ## Table of Contents
 
-**Explanantion**
+**Explanation**
 You can create a table of contents just like the one at the start of this cheet sheet with the following syntax:
 ```
 [text that you want to display](#name-of-section-link)
@@ -589,8 +589,9 @@ You can create a table of contents just like the one at the start of this cheet 
 ```
 Then, in the section that you want to link to, put `<a id="name-of-section-link></a>`. Make sure that the text inside the parentheses in the table of contents item matches the id:
 ```
+<a id="name-of-section-link"></a>
 ## text that you want to display
-
+```
 **Output:**
  
 [text that you want to display](#name-of-section-link)
