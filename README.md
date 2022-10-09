@@ -26,6 +26,7 @@
 22. [DropDown](#dropdown)
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
+25. [Table of Contents](#table-of-contents)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -600,3 +601,22 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 [^1]: This is the first footnote.
 
 [^bignote]: Here's one with multiple paragraphs and code.
+
+<a id="table-of-contents"><\a>
+## Table of Contents
+
+You can create a table of contents just like the one at the start of this cheet sheet with the following syntax:
+```
+[text that you want to display](name-of-section-link)
+```
+Then, in the section that you want to link to just put `<a id="name-of-section-link><\a>`. Just make sure that the text inside the parentheses in the table of contents matches the id.
+
+**Output:**
+[This is the first item in a table of contents](section-one)
+[This is the second item in a table of contents](section-two)
+
+<a id="section-one"><\a>
+## This is the first item in a table of contents
+
+<a id="section-two"><\a>
+## This is the second item in a table of contents
