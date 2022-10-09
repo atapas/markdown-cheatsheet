@@ -580,25 +580,28 @@ RL variant
 <a id="toc"></a>
 ## Table of Contents
 
+**Explanantion**
 You can create a table of contents just like the one at the start of this cheet sheet with the following syntax:
 ```
 [text that you want to display](#name-of-section-link)
  
-[Make sure to space items with a line](#some-section-link)
+[Make sure to space items with a line](#section-two)
 ```
-Then, in the section that you want to link to just put `<a id="name-of-section-link></a>`. Just make sure that the text inside the parentheses in the table of contents matches the id.
+Then, in the section that you want to link to, put `<a id="name-of-section-link></a>`. Make sure that the text inside the parentheses in the table of contents item matches the id:
+```
+## text that you want to display
 
 **Output:**
  
-[This is the first item in a table of contents](#section-one)
+[text that you want to display](#name-of-section-link)
  
 [This is the second item in a table of contents](#section-two)
 
-<a id="section-one"></a>
-## This is the first item in a table of contents
+<a id="name-of-section-link"></a>
+## Item one
 
 <a id="section-two"></a>
-## This is the second item in a table of contents
+## Item two
 
 ## FootNote
 
