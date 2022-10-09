@@ -24,9 +24,11 @@
 20. [Embed YouTube Video](#embed-youtube-video)
 21. [Mathematical Expressions](#mathematical-expressions)
 22. [DropDown](#dropdown)
-23. [Superscript](#superscript)
-24. [Subscript](#subscript)
-25. [Footnotes](#footnotes)
+23. [Diagrams](#diagrams)
+24. [FootNote](#footnote)
+25. [Superscript](#superscript)
+26. [Subscript](#subscript)
+
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -487,6 +489,122 @@ For more information on how to write mathematical expressions, [visit this page]
  <br>Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
  <br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
 
+
+## Diagrams
+
+**Syntax:**
+- Use the *mermaid* syntax
+- Additional syntax: TD means Top Down, LR means Left Right, BT means Bottom Top, RL means Right Left 
+
+TD variant
+```
+    ```mermaid
+        graph TD;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
+
+**Output:**
+
+ ```mermaid
+        graph TD;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
+
+LR variant
+```
+    ```mermaid
+        graph LR;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
+
+**Output:**
+
+ ```mermaid
+        graph LR;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
+
+BT variant
+```
+    ```mermaid
+        graph BT;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
+
+**Output:**
+
+ ```mermaid
+        graph BT;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
+
+RL variant
+```
+    ```mermaid
+        graph RL;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+    ```
+```
+
+**Output:**
+
+ ```mermaid
+        graph RL;
+            A-->B;
+            B-->C;
+            C-->D;
+            D-->E;
+```
+
+## FootNote
+
+**Explanation:**
+<br>Footnotes allow you to add notes and references without cluttering the body of the document. 
+<br>When you create a footnote, a superscript number with a link appears where you added the footnote reference. 
+<br>Readers can click the link to jump to the content of the footnote at the bottom of the page.
+
+**Syntax:**
+
+```
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+```
+**Output:**
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
 ## Superscript
 
 **Code:**
@@ -520,20 +638,3 @@ CH<sub>4</sub>
 ```
 CH<sub>4</sub>
 ```
-
-## Footnotes
-
-**Code:**
-```
-Markdown is easy to learn.[^1]
-    [^1]: And it's fun too.
-```
-**Output:**
-
-Markdown is easy to learn.[^1]
-    [^1]: And it's fun too.
-
-**Note:** Some sites/applications don't support this.
-
-
-
