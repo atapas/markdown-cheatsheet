@@ -589,14 +589,15 @@ You can create a table of contents just like the one at the start of this cheet 
 Then, in the section that you want to link to just put `<a id="name-of-section-link><\a>`. Just make sure that the text inside the parentheses in the table of contents matches the id.
 
 **Output:**
+ 
 [This is the first item in a table of contents](section-one)
  
 [This is the second item in a table of contents](section-two)
 
-<a id="section-one"></a>
+<a id="section-one"><\a>
 ## This is the first item in a table of contents
 
-<a id="section-two"></a>
+<a id="section-two"><\a>
 ## This is the second item in a table of contents
 
 ## FootNote
