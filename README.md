@@ -597,7 +597,7 @@ Then, in the section that you want to link to, put `<a id="name-of-section-link>
  
 [text that you want to display](#name-of-section-link)
  
-[This is the second item in a table of contents](#section-two)
+[Make sure to space items with a line](#section-two)
 
 <a id="name-of-section-link"></a>
 ## Item one
