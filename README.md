@@ -583,11 +583,14 @@ RL variant
 You can create a table of contents just like the one at the start of this cheet sheet with the following syntax:
 ```
 [text that you want to display](name-of-section-link)
+ 
+[Make sure to space items with a line](some-section-link)
 ```
 Then, in the section that you want to link to just put `<a id="name-of-section-link><\a>`. Just make sure that the text inside the parentheses in the table of contents matches the id.
 
 **Output:**
 [This is the first item in a table of contents](section-one)
+ 
 [This is the second item in a table of contents](section-two)
 
 <a id="section-one"></a>
