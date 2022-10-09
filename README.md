@@ -116,7 +116,7 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 **Syntax:**
 
 ```
-- [X] Code
+- [X] CodeMa
 - [ ] Review
 - [ ] Commit
 ```
@@ -600,3 +600,8 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 [^1]: This is the first footnote.
 
 [^bignote]: Here's one with multiple paragraphs and code.
+
+
+## Mentioning people and teams
+
+You can mention a person or team on GitHub by typing @ plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name.
