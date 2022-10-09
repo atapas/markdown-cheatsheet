@@ -577,7 +577,7 @@ RL variant
             D-->E;
 ```
 
-<a id="toc"><\a>
+<a id="toc"></a>
 ## Table of Contents
 
 You can create a table of contents just like the one at the start of this cheet sheet with the following syntax:
@@ -586,7 +586,7 @@ You can create a table of contents just like the one at the start of this cheet 
  
 [Make sure to space items with a line](#some-section-link)
 ```
-Then, in the section that you want to link to just put `<a id="name-of-section-link><\a>`. Just make sure that the text inside the parentheses in the table of contents matches the id.
+Then, in the section that you want to link to just put `<a id="name-of-section-link></a>`. Just make sure that the text inside the parentheses in the table of contents matches the id.
 
 **Output:**
  
@@ -594,10 +594,10 @@ Then, in the section that you want to link to just put `<a id="name-of-section-l
  
 [This is the second item in a table of contents](#section-two)
 
-<a id="section-one"><\a>
+<a id="section-one"></a>
 ## This is the first item in a table of contents
 
-<a id="section-two"><\a>
+<a id="section-two"></a>
 ## This is the second item in a table of contents
 
 ## FootNote
