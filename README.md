@@ -26,7 +26,7 @@
 22. [DropDown](#dropdown)
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
-25. [Line Added/Removed](#line-added-removed)
+25. [Line Added - Removed](#line-added-removed)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
