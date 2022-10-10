@@ -26,7 +26,8 @@
 22. [DropDown](#dropdown)
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
-25. [Text Highlighting](#text-highlighting)
+25. [Comments](#comments)
+26. [Text Highlighting](#text-highlighting)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -602,11 +603,33 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 [^bignote]: Here's one with multiple paragraphs and code.
 
+
+## Comments
+
+**Explanation:**
+<br>Comments are text notes added to a program or a document to provide explanatory information.
+<br>You can hide content from the rendered Markdown by placing the content in a comment.
+
+
+**Syntax**
+
+```
+This is Line Number 1. 
+<!---This is Line Number 2 and would not be rendered as this is a comment. --->
+This is Line Number 3.
+```
+
+**Output**
+
+This is Line Number 1. 
+<!---This is Line Number 2 and would not be rendered as this is a comment. --->
+This is Line Number 3.
+
+
 ## Text Highlighting
 
 **Explanation:**
 <br>Text Highlighting is used to highlight the important texts in a document. Texts can be highlighted using two equal signs(==) before and after the words.
-
 
 #### HTML
 **Syntax:**
