@@ -9,24 +9,25 @@
 5. [CheckBox Task List](#checkbox-task-list)
 6. [Code Block](#code-block)
 7. [Strikethrough Text](#strikethrough-text)
-8. [Blockquote Text](#blockquote-text)
-9. [Bold](#bold)
-10. [Italic](#italic)
-11. [Bold and Italic](#bold-and-italic)
-12. [Link](#link)
-13. [Image](#image)
-14. [Linking an Image](#linking-an-image)
-15. [Emojis](#emojis)
-16. [Table](#table)
-17. [Table With Alignments](#table-with-alignments)
-18. [Horizontal Line](#horizontal-line)
-19. [HTML](#html)
-20. [Embed YouTube Video](#embed-youtube-video)
-21. [Mathematical Expressions](#mathematical-expressions)
-22. [DropDown](#dropdown)
-23. [Diagrams](#diagrams)
-24. [FootNote](#footnote)
-25. [Comments](#comments)
+8. [Underline Text](#underline-text)
+9. [Blockquote Text](#blockquote-text)
+10. [Bold](#bold)
+11. [Italic](#italic)
+12. [Bold and Italic](#bold-and-italic)
+13. [Link](#link)
+14. [Image](#image)
+15. [Linking an Image](#linking-an-image)
+16. [Emojis](#emojis)
+17. [Table](#table)
+18. [Table With Alignments](#table-with-alignments)
+19. [Horizontal Line](#horizontal-line)
+20. [HTML](#html)
+21. [Embed YouTube Video](#embed-youtube-video)
+22. [Mathematical Expressions](#mathematical-expressions)
+23. [DropDown](#dropdown)
+24. [Diagrams](#diagrams)
+25. [FootNote](#footnote)
+26. [Comments](#comments)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -188,6 +189,18 @@ echo 1
 **Output:**
 
 ~~Sharing is NOT about Caring.~~
+
+## Underline Text
+
+**Syntax**
+
+```
+Don't forget to bring <ins>milk</ins> from the store.
+```
+
+**Output:**
+
+Don't forget to bring <ins>milk</ins> from the store.
 
 ## Blockquote Text
 
