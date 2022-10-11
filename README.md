@@ -27,7 +27,7 @@
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
 25. [Comments](#comments)
-26. [Fenced Code Block](#Fenced Code Block)
+26. [Fenced Code Block](#fenced-code-block)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -645,7 +645,7 @@ This is Line Number 1.
 This is Line Number 3.
 
 
-# Fenced Code Block
+## Fenced Code Block
 
 ```
 ```
