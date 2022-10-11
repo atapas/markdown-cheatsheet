@@ -27,6 +27,7 @@
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
 25. [Comments](#comments)
+26. [Subscript](#subscript)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -642,3 +643,19 @@ This is Line Number 3.
 This is Line Number 1. 
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
+
+
+## Subscript
+
+**Explanation:**
+<br>This isn’t common, but some Markdown processors allow you to use subscript to position one or more characters slightly below the normal line of type. To create a subscript, use one tilde symbol (~) before and after the characters
+
+**Syntax:**
+
+```
+H<sub>2</sub>O
+```
+
+**Output**
+
+H<sub>2</sub>O
