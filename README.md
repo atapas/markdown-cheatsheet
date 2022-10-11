@@ -27,6 +27,9 @@
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
 25. [Comments](#comments)
+26. [Superscript](#superscript)
+27. [Subscript](#subscript)
+
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -506,6 +509,7 @@ For more information on how to write mathematical expressions, [visit this page]
  <br>Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
  <br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
 
+
 ## Diagrams
 
 **Syntax:**
@@ -642,3 +646,38 @@ This is Line Number 3.
 This is Line Number 1. 
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
+
+## Superscript
+
+**Code:**
+```
+x^2^
+```
+**Output:**
+
+x<sup>2</sup>
+
+**Note:** Some sites/applications don't support this so you have to use the HTML tags, to get superscript.
+
+**Code:**
+```
+x<sup>2</sup>
+```
+
+## Subscript
+
+**Code:**
+```
+CH~4~
+```
+**Output:**
+
+CH<sub>4</sub>
+
+**Note:** Some sites/applications don't support this(they consider this as strikethrough) so you have to use the HTML tags, to get subscript.
+
+**Code:**
+```
+CH<sub>4</sub>
+```
+
