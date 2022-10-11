@@ -27,6 +27,7 @@
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
 25. [Comments](#comments)
+26. [Text Highlighting](#text-highlighting)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -642,3 +643,26 @@ This is Line Number 3.
 This is Line Number 1. 
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
+
+
+## Text Highlighting
+
+**Explanation:**
+<br>Text Highlighting is used to highlight the important texts in a document. Texts can be highlighted using two equal signs(==) before and after the words.
+
+#### HTML
+**Syntax:**
+```
+These words are <mark>very important.</mark>
+```
+
+**Output:**
+These words are <mark>very important.</mark>
+
+#### Markdown
+**Syntax:**
+```
+These words are ==very important.==
+```
+**Output:**
+These words are ==very important.==
