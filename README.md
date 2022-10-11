@@ -27,6 +27,7 @@
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
 25. [Comments](#comments)
+26. [Fenced Code Block](#fenced-code-block)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -642,3 +643,33 @@ This is Line Number 3.
 This is Line Number 1. 
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
+
+
+## Fenced Code Block
+
+**Explaination:**
+
+<br>The basic Markdown syntax allows you to create code blocks by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. Depending on your Markdown processor or editor, you’ll use three backticks or three tildes on the lines before and after the code block. The best part? You don’t have to indent any lines!
+
+
+**Syntax**
+
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+
+**Output**
+
+{<br>
+ &nbsp; "firstName": "John", <br>
+ &nbsp; "lastName": "Smith", <br>
+ &nbsp; "age": 25 <br>
+}
+
+
