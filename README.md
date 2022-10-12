@@ -27,6 +27,7 @@
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
 25. [Comments](#comments)
+26. [Blockquotes with multiple lines of text in markdown](#blockquotes-with-multiple-lines-of-text-in-markdown)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -431,17 +432,17 @@ or
 3. **Mixed Expressions:**
 
     **Syntax**
-    
+
     ```
-    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
-    
+    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+
     $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
     ```
 
     **Output**
 
-    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
-    
+    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+
     $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 For more information on how to write mathematical expressions, [visit this page](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
@@ -510,7 +511,7 @@ For more information on how to write mathematical expressions, [visit this page]
 
 **Syntax:**
 - Use the *mermaid* syntax
-- Additional syntax: TD means Top Down, LR means Left Right, BT means Bottom Top, RL means Right Left 
+- Additional syntax: TD means Top Down, LR means Left Right, BT means Bottom Top, RL means Right Left
 
 TD variant
 ```
@@ -599,8 +600,8 @@ RL variant
 ## FootNote
 
 **Explanation:**
-<br>Footnotes allow you to add notes and references without cluttering the body of the document. 
-<br>When you create a footnote, a superscript number with a link appears where you added the footnote reference. 
+<br>Footnotes allow you to add notes and references without cluttering the body of the document.
+<br>When you create a footnote, a superscript number with a link appears where you added the footnote reference.
 <br>Readers can click the link to jump to the content of the footnote at the bottom of the page.
 
 **Syntax:**
@@ -632,13 +633,33 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 **Syntax**
 
 ```
-This is Line Number 1. 
+This is Line Number 1.
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
 ```
 
 **Output**
 
-This is Line Number 1. 
+This is Line Number 1.
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
+
+## Blockquotes with multiple lines of text in markdown
+
+**Explanation:**
+<br>These can contain multiple lines or paragraphs by adding the ‘>’ symbol. Also, include empty lines.
+
+
+**Syntax**
+
+```
+> This is the first line
+>
+>This is the next line
+```
+
+**Output**
+
+> This is the first line
+>
+>This is the next line
