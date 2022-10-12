@@ -2,32 +2,32 @@
 # Table of Contents
 ` markdown-cheatsheet` is a single place for all the markdown syntaxes I have learned so far. Sharing publicly so that you also know about them and use.
 
-1. [Headings](#headings)
-2. [Code](#code)
-3. [Unordered List of Items](#unordered-list-of-items)
-4. [Ordered List of Items](#ordered-list-of-items)
-5. [CheckBox Task List](#checkbox-task-list)
+1. [Blockquote](#blockquote-text) 
+2. [Bold](#bold)
+3. [Bold and Italic](#bold-and-italic)
+4. [CheckBox Task List](#checkbox-task-list)
+5. [Code](#code) 
 6. [Code Block](#code-block)
-7. [Strikethrough Text](#strikethrough-text)
-8. [Blockquote Text](#blockquote-text)
-9. [Bold](#bold)
-10. [Italic](#italic)
-11. [Bold and Italic](#bold-and-italic)
-12. [Link](#link)
-13. [Image](#image)
-14. [Linking an Image](#linking-an-image)
-15. [Emojis](#emojis)
-16. [Table](#table)
-17. [Table With Alignments](#table-with-alignments)
-18. [Horizontal Line](#horizontal-line)
-19. [HTML](#html)
-20. [Embed YouTube Video](#embed-youtube-video)
-21. [Mathematical Expressions](#mathematical-expressions)
-22. [DropDown](#dropdown)
-23. [Diagrams](#diagrams)
-24. [FootNote](#footnote)
-25. [Comments](#comments)
-26. [Task List](#task-list)
+7. [Comments](#comments) 
+8. [Diagrams](#diagrams) 
+9. [DropDown](#dropdown)
+10. [Embed YouTube Video](#embed-youtube-video)
+11. [Emojis](#emojis)
+12. [FootNote](#footnote) 
+13. [Headings](#headings)
+14. [Horizontal Line](#horizontal-line)
+15. [HTML](#html)
+16. [Image](#image) 
+17. [Italic](#italic)
+18. [Link](#link)
+19. [Linking an Image](#linking-an-image)
+20. [Mathematical Expressions](#mathematical-expressions)
+21. [Ordered List of Items](#ordered-list-of-items)
+22. [Strikethrough Text](#strikethrough-text)
+23. [Table](#table) 
+24. [Table With Alignments](#table-with-alignments)
+25. [Task List](#task-list) 
+26. [Unordered List of Items](#unordered-list-of-items) 
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -651,6 +651,7 @@ This is Line Number 3.
 <br>Task Lists allow you to create a list of items with checkboxes.
 <br>They are rendered on separate lines with a checkbox 
 <br>To mark a task as completed, place an x within the square brackets of the markdown
+
 **Syntax**
 
 ```
