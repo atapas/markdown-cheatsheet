@@ -27,6 +27,7 @@
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
 25. [Comments](#comments)
+26. [Task List](#task-list)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -642,3 +643,23 @@ This is Line Number 3.
 This is Line Number 1. 
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
+
+
+## Task List
+
+**Explanation:**
+<br>Task Lists allow you to create a list of items with checkboxes.
+<br>They are rendered on separate lines with a checkbox 
+<br>To mark a task as completed, place an x within the square brackets of the markdown
+**Syntax**
+
+```
+- [ ] incomplete task
+- [x] completed task
+
+```
+
+**Output**
+
+- [ ] incomplete task
+- [x] completed task
