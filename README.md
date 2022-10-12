@@ -349,9 +349,31 @@ or
 ---
 ```
 
+Or
+
+```
+***
+```
+
+Or
+
+```
+___
+```
+
 **Output:**
 
+First Method
+
 ---
+
+Second Method
+
+***
+
+Third Method
+
+___
 
 ## HTML
 
