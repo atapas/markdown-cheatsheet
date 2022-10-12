@@ -27,6 +27,7 @@
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
 25. [Comments](#comments)
+26. [Highlight](#highlight)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -642,3 +643,16 @@ This is Line Number 3.
 This is Line Number 1. 
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
+
+
+
+## Highlight
+
+**Explanation:**
+<br>To highlight words, use two equal signs (==) before and after the words.
+
+**Syntax**
+```I need to highlight these ==very important words==.```
+
+**Output**
+I need to highlight these ==very important words==.
