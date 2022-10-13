@@ -27,10 +27,12 @@
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
 25. [Comments](#comments)
-
+26. [Highlighting](#highlighting)
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
 [![Thanks to all stargazers](https://git-lister.onrender.com/api/stars/atapas/markdown-cheatsheet?limit=15)](https://github.com/atapas/markdown-cheatsheet/stargazers)
+
+
 
 ## Headings
 
@@ -376,6 +378,22 @@ or
     The details are here.
 </details>
 
+**Syntax:**
+
+```
+<p >
+ Yes, you can use allowed raw HTML in mark-down file.
+ This is a paragraph aligned in the center.
+</p>
+```
+
+**Output:**
+
+<p style="font-color=blue;">
+ Yes, you can use allowed raw HTML in mark-down file.
+ This is a paragraph aligned in the center.
+</p>
+
 ## Embed YouTube Video
 
 **Syntax:**
@@ -642,3 +660,14 @@ This is Line Number 3.
 This is Line Number 1. 
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
+
+## Highlighting
+
+**Syntax:**
+```
+Inline `code` has `back-ticks around` it.
+```
+
+**Output:**
+
+Inline `code` has `back-ticks around` it.
