@@ -371,11 +371,6 @@ or
  This is a paragraph aligned in the center.
 </p>
 
-<details>
-    <summary>Heading</summary>
-    The details are here.
-</details>
-
 ## Embed YouTube Video
 
 **Syntax:**
