@@ -26,7 +26,7 @@
 22. [DropDown](#dropdown)
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
-25. [Line Added - Removed](#line-added-removed)
+25. [Line Added or Removed](#link-added-or-removed)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -602,7 +602,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 [^bignote]: Here's one with multiple paragraphs and code.
 
-## Line Added/Removed
+## Line Added or Removed
 
 This syntax works particulary on GitHub.
 
