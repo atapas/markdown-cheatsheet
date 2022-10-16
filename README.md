@@ -26,7 +26,7 @@
 22. [DropDown](#dropdown)
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
-25. [Comments](#comments)
+26. [Line Added or Removed](#line-added-or-removed)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -621,24 +621,20 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 [^bignote]: Here's one with multiple paragraphs and code.
 
+## Line Added or Removed
 
-## Comments
+This syntax works particulary on GitHub.
 
-**Explanation:**
-<br>Comments are text notes added to a program or a document to provide explanatory information.
-<br>You can hide content from the rendered Markdown by placing the content in a comment.
+**Syntax:**
 
-
-**Syntax**
-
+````
+```diff
++ The line is added.
+- The line is removed.
 ```
-This is Line Number 1. 
-<!---This is Line Number 2 and would not be rendered as this is a comment. --->
-This is Line Number 3.
-```
+````
 
-**Output**
-
-This is Line Number 1. 
-<!---This is Line Number 2 and would not be rendered as this is a comment. --->
-This is Line Number 3.
+**Output:**
+```diff
++ The line is added.
+- The line is removed.
