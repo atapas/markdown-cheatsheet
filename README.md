@@ -273,6 +273,25 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
 [![GreenRoots Blog](https://res.cloudinary.com/atapas/image/upload/v1598936159/profile/500x500_oklccx.png)](https://blog.greenroots.info)
 
+## Image Based on Theme
+
+**Syntax:**
+
+```
+![alt text](image#gh-dark-mode-only)
+```
+or
+```
+![alt text](image#gh-light-mode-only)
+```
+
+**Output (try changing themes!):**
+
+![dark mode only image](https://user-images.githubusercontent.com/73202594/194573255-096947e8-38af-44cb-b9dd-015132634c75.png#gh-dark-mode-only)
+
+![light mode only image](https://user-images.githubusercontent.com/73202594/194573460-55fcb36f-efed-4a82-8e3a-bd262cc4bfde.png#gh-light-mode-only)
+
+
 ## Emojis
 
 **Syntax:**
