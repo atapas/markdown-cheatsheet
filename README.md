@@ -150,7 +150,7 @@ In order to ***highlight the code***, you can add language name at the start of 
 ````
 ```js
 function print() {
- console.log('This is is a JavaScript Code Block');
+ console.log('This is a JavaScript Code Block');
 }
 ```
 ````
@@ -158,7 +158,7 @@ function print() {
 **Output:**
 ```js
 function print() {
- console.log('This is is a JavaScript Code Block');
+ console.log('This is a JavaScript Code Block');
 }
 ```
 
