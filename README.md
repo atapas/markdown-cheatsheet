@@ -249,6 +249,31 @@ Did you know I have [Website](https://tapasadhikary.com)?
 
 Did you know I have [Website](https://tapasadhikary.com)?
 
+### Automatic link
+Many Markdown processors automatically turn URLs into links. That means if you type `http://www.example.com`, your Markdown processor will automatically turn it into a link even though you haven’t [used brackets](https://www.markdownguide.org/basic-syntax/#links).
+
+**Syntax:**
+
+```
+http://www.example.com
+```
+
+**Output:**
+
+[http://www.example.com](http://www.example.com)
+
+### Disabling Automatic URL Linking
+If you don’t want a URL to be automatically linked, you can remove the link by denoting the URL as code with backticks.
+
+**Syntax:**
+
+```
+`http://www.example.com`
+```
+**Output:**
+
+`http://www.example.com`
+
 ## Image
 
 **Syntax:**
