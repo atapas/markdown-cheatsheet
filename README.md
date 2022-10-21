@@ -240,7 +240,7 @@ _It is Written in Italics_
 **Syntax:**
 
 ```
-***You Can Combine Bold and Italics***
+**_You Can Combine Bold and Italics_**
 ```
 
 **Output:**
