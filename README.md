@@ -4,10 +4,10 @@
 
 1. [Headings](#headings)
 2. [Code](#code)
-3. [Unordered List of Items](#unordered-list-of-items)
-4. [Ordered List of Items](#ordered-list-of-items)
-5. [CheckBox Task List](#checkbox-task-list)
-6. [Code Block](#code-block)
+3. [Code Block](#code-block)
+4. [Unordered List of Items](#unordered-list-of-items)
+5. [Ordered List of Items](#ordered-list-of-items)
+6. [CheckBox Task List](#checkbox-task-list)
 7. [Strikethrough Text](#strikethrough-text)
 8. [Blockquote Text](#blockquote-text)
 9. [Bold](#bold)
@@ -70,6 +70,58 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 **Output:**
 
 `This is Code`
+
+## Code Block
+
+**Syntax:**
+
+````
+```
+This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
+```
+````
+
+**Output:**
+
+```
+This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
+```
+
+In order to **_highlight the code_**, you can add language name at the start of the backticks as in the following examples.
+
+**Example 1:**
+
+````
+```js
+function print() {
+ console.log('This is is a JavaScript Code Block');
+}
+```
+````
+
+**Output:**
+
+```js
+function print() {
+	console.log("This is is a JavaScript Code Block");
+}
+```
+
+**Example 2:**
+
+````
+```bash
+# This is bash
+echo 1
+```
+````
+
+**Output:**
+
+```bash
+# This is bash
+echo 1
+```
 
 ## Unordered List of Items
 
@@ -134,58 +186,6 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 - [x] Code
 - [ ] Review
 - [ ] Commit
-
-## Code Block
-
-**Syntax:**
-
-````
-```
-This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
-```
-````
-
-**Output:**
-
-```
-This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
-```
-
-In order to **_highlight the code_**, you can add language name at the start of the backticks as in the following examples.
-
-**Example 1:**
-
-````
-```js
-function print() {
- console.log('This is is a JavaScript Code Block');
-}
-```
-````
-
-**Output:**
-
-```js
-function print() {
-	console.log("This is is a JavaScript Code Block");
-}
-```
-
-**Example 2:**
-
-````
-```bash
-# This is bash
-echo 1
-```
-````
-
-**Output:**
-
-```bash
-# This is bash
-echo 1
-```
 
 ## Strikethrough Text
 
