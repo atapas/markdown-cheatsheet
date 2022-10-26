@@ -27,6 +27,8 @@
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
 25. [Comments](#comments)
+26. [Subscript](#subscript)
+27. [Superscript](#superscript)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -642,3 +644,47 @@ This is Line Number 3.
 This is Line Number 1. 
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
+
+## Subscript
+
+**Explanation:**
+<br>This isn't common, but some Markdown processors allow you to use subscript to position one or more characters slightly below the normal line of type. 
+
+To create a subscript, use one tilde symbol (~) before and after the characters.
+
+Alternatively, if your Markdown application supports HTML, you can use the `sub` HTML tag.
+
+
+**Syntax**
+
+```
+H~2~O
+H<sub>2</sub>O
+```
+
+**Output**
+
+H~2~0 <br>
+H<sub>2</sub>O
+
+## Superscript
+
+**Explanation:**
+<br>This isn't common, but some Markdown processors allow you to use superscript to position one or more characters slightly above the normal line of type.
+
+To create a superscript, use one caret symbol (^) before and after the characters.
+
+Alternatively, if your Markdown application supports HTML, you can use the `sup` HTML tag.
+
+
+**Syntax**
+
+```
+X^2^
+X<sup>2</sup>
+```
+
+**Output**
+
+X^2^ <br>
+X<sup>2</sup>
