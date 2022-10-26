@@ -662,6 +662,6 @@ This is Line Number 3.
 
 <span style="color: red;">Note: </span> This is a note.
 <br>
-<span style="color: yellow;">Warn: </span> This is a warning.
+<span style="color: yellow;">Warn: </span> `<span>` tag may not work in all markdown editors. It works in VSCode.
 <br>
 <span style="color: green;">Passed: </span> This test case is passed.
