@@ -654,6 +654,8 @@ This is Line Number 3.
 
 ```
 <span style="color: red;">Note: </span> This is a note.
+<span style="color: yellow;">Warn: </span> This is a warning.
+<span style="color: green;">Passed: </span> This test case is passed.
 ```
 
 **Output**
