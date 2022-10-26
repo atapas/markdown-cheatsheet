@@ -27,6 +27,7 @@
 23. [Diagrams](#diagrams)
 24. [FootNote](#footnote)
 25. [Comments](#comments)
+26. [Font color](#font-color)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -642,3 +643,23 @@ This is Line Number 3.
 This is Line Number 1. 
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
+
+## Font color
+
+**Explanation:**
+<br>You may want to color the font in multiple scenarios e.g. adding a note, adding status for an activity.
+
+
+**Syntax**
+
+```
+<span style="color: red;">Note: </span> This is a note.
+```
+
+**Output**
+
+<span style="color: red;">Note: </span> This is a note.
+<br>
+<span style="color: yellow;">Warn: </span> This is a warning.
+<br>
+<span style="color: green;">Passed: </span> This test case is passed.
