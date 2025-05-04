@@ -17,16 +17,17 @@
 13. [Image](#image)
 14. [Linking an Image](#linking-an-image)
 15. [Emojis](#emojis)
-16. [Table](#table)
-17. [Table With Alignments](#table-with-alignments)
-18. [Horizontal Line](#horizontal-line)
-19. [HTML](#html)
-20. [Embed YouTube Video](#embed-youtube-video)
-21. [Mathematical Expressions](#mathematical-expressions)
-22. [DropDown](#dropdown)
-23. [Diagrams](#diagrams)
-24. [FootNote](#footnote)
-25. [Comments](#comments)
+16. [Alerts](#alerts)
+17. [Table](#table)
+18. [Table With Alignments](#table-with-alignments)
+19. [Horizontal Line](#horizontal-line)
+20. [HTML](#html)
+21. [Embed YouTube Video](#embed-youtube-video)
+22. [Mathematical Expressions](#mathematical-expressions)
+23. [DropDown](#dropdown)
+24. [Diagrams](#diagrams)
+25. [FootNote](#footnote)
+26. [Comments](#comments)
 
 Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
@@ -303,6 +304,69 @@ or
 **Output:**
 
 :mango: :lemon: :man: :car:
+
+## Alerts
+
+**Syntax:**
+
+```markdown
+> [!NOTE]
+> Git commits are snapshots of your code at a given time.
+```
+
+**Output:**
+
+> [!NOTE]
+> Git commits are snapshots of your code at a given time.
+
+**Syntax:**
+
+```markdown
+> [!TIP]
+> Use `git status` often to stay aware of your changes.
+```
+
+**Output:**
+
+> [!TIP]
+> Use `git status` often to stay aware of your changes.
+
+**Syntax:**
+
+```markdown
+> [!IMPORTANT]
+> Always commit your changes before switching branches to avoid losing work.
+```
+
+**Output:**
+
+> [!IMPORTANT]
+> Always commit your changes before switching branches to avoid losing work.
+
+**Syntax:**
+
+```markdown
+
+> [!WARNING]
+> Don’t use `git push --force` unless you fully understand the consequences.
+```
+
+**Output:**
+
+> [!WARNING]
+> Don’t use `git push --force` unless you fully understand the consequences.
+
+**Syntax:**
+
+```markdown
+> [!CAUTION]
+> Renaming branches in shared repositories can confuse collaborators.
+```
+
+**Output:**
+
+> [!CAUTION]
+> Renaming branches in shared repositories can confuse collaborators.
 
 ## Table
 
