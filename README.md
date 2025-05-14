@@ -1,13 +1,13 @@
-
 # Table of Contents
+
 ` markdown-cheatsheet` is a single place for all the markdown syntaxes I have learned so far. Sharing publicly so that you also know about them and use.
 
 1. [Headings](#headings)
 2. [Code](#code)
-3. [Unordered List of Items](#unordered-list-of-items)
-4. [Ordered List of Items](#ordered-list-of-items)
-5. [CheckBox Task List](#checkbox-task-list)
-6. [Code Block](#code-block)
+3. [Code Block](#code-block)
+4. [Unordered List of Items](#unordered-list-of-items)
+5. [Ordered List of Items](#ordered-list-of-items)
+6. [CheckBox Task List](#checkbox-task-list)
 7. [Strikethrough Text](#strikethrough-text)
 8. [Blockquote Text](#blockquote-text)
 9. [Bold](#bold)
@@ -45,13 +45,19 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 ##### H5 - Heading 5
 ###### H6 - Heading 6
 ```
+
 **Output:**
 
 # H1 - Heading 1
+
 ## H2 - Heading 2
+
 ### H3 - Heading 3
+
 #### H4 - Heading 4
+
 ##### H5 - Heading 5
+
 ###### H6 - Heading 6
 
 ## Code
@@ -65,6 +71,58 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 **Output:**
 
 `This is Code`
+
+## Code Block
+
+**Syntax:**
+
+````
+```
+This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
+```
+````
+
+**Output:**
+
+```
+This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
+```
+
+In order to **_highlight the code_**, you can add language name at the start of the backticks as in the following examples.
+
+**Example 1:**
+
+````
+```js
+function print() {
+ console.log('This is is a JavaScript Code Block');
+}
+```
+````
+
+**Output:**
+
+```js
+function print() {
+	console.log("This is is a JavaScript Code Block");
+}
+```
+
+**Example 2:**
+
+````
+```bash
+# This is bash
+echo 1
+```
+````
+
+**Output:**
+
+```bash
+# This is bash
+echo 1
+```
 
 ## Unordered List of Items
 
@@ -83,6 +141,7 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 - Beer
 
 **Syntax:**
+
 > This is an alternate syntax to create unordered list items.
 
 ```
@@ -93,9 +152,9 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 
 **Output:**
 
-* JavaScript
-* TypeScript
-* ReactJs
+- JavaScript
+- TypeScript
+- ReactJs
 
 ## Ordered List of Items
 
@@ -125,58 +184,9 @@ Many Thanks to all the `Stargazers` who has supported this project with stars(тн
 
 **Output:**
 
-- [X] Code
+- [x] Code
 - [ ] Review
 - [ ] Commit
-
-## Code Block
-
-**Syntax:**
-
-````
-```
-This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
-```
-````
-
-**Output:**
-```
-This is a code block. You can create for code syntaxes like JavaScript, HTML, CSS, Bash, and many more.
-```
-
-In order to ***highlight the code***, you can add language name at the start of the backticks as in the following examples.
-
-**Example 1:**
-
-````
-```js
-function print() {
- console.log('This is is a JavaScript Code Block');
-}
-```
-````
-
-**Output:**
-```js
-function print() {
- console.log('This is is a JavaScript Code Block');
-}
-```
-
-**Example 2:**
-
-````
-```bash
-# This is bash
-echo 1
-```
-````
-
-**Output:**
-```bash
-# This is bash
-echo 1
-```
 
 ## Strikethrough Text
 
@@ -224,19 +234,19 @@ echo 1
 
 **Output:**
 
-*It is Written in Italics*
+_It is Written in Italics_
 
 ## Bold and Italic
 
 **Syntax:**
 
 ```
-***You Can Combine Bold and Italics***
+**_You Can Combine Bold and Italics_**
 ```
 
 **Output:**
 
-***You Can Combine Bold and Italics***
+**_You Can Combine Bold and Italics_**
 
 ## Link
 
@@ -281,7 +291,9 @@ Did you know I have [Website](https://tapasadhikary.com)?
 ```
 ![alt text](image#gh-dark-mode-only)
 ```
+
 or
+
 ```
 ![alt text](image#gh-light-mode-only)
 ```
@@ -291,7 +303,6 @@ or
 ![dark mode only image](https://user-images.githubusercontent.com/73202594/194573255-096947e8-38af-44cb-b9dd-015132634c75.png#gh-dark-mode-only)
 
 ![light mode only image](https://user-images.githubusercontent.com/73202594/194573460-55fcb36f-efed-4a82-8e3a-bd262cc4bfde.png#gh-light-mode-only)
-
 
 ## Emojis
 
@@ -381,9 +392,8 @@ or
 
 **Output:**
 
-
-| Fruit | Emoji |
-| ----------- | ----------- |
+| Fruit | Emoji   |
+| ----- | ------- |
 | Mango | :mango: |
 | Lemon | :lemon: |
 
@@ -400,10 +410,10 @@ or
 
 **Output:**
 
-| Fruit(left)      | Emoji(center) | Taste(right)     |
-| :---        |    :----:   |          ---: |
-| Mango is the king of Fruits      | :mango:       | Sweet and I love it  |
-| Lemon is good for health   | :lemon:        | Sour, mix it in the water     |
+| Fruit(left)                 | Emoji(center) |              Taste(right) |
+| :-------------------------- | :-----------: | ------------------------: |
+| Mango is the king of Fruits |    :mango:    |       Sweet and I love it |
+| Lemon is good for health    |    :lemon:    | Sour, mix it in the water |
 
 ## Horizontal Line
 
@@ -456,75 +466,78 @@ or
 
 1. **Inline expressions:**
 
-    **Syntax**
+   **Syntax**
 
-    ```plain
-    $<<mathematical expression>>$
-    ```
+   ```plain
+   $<<mathematical expression>>$
+   ```
 
-    Replace `<<mathematical expression>>` with your expression.
+   Replace `<<mathematical expression>>` with your expression.
 
-    **Example**
+   **Example**
 
-    ```plain
-    $\sqrt{3}+1$
-    ```
+   ```plain
+   $\sqrt{3}+1$
+   ```
 
-    **Output**
+   **Output**
 
-    $\sqrt{3}+1$
+   $\sqrt{3}+1$
 
 2. **Block Expressions:**
 
-    **Syntax**
+   **Syntax**
 
-    ```plain
-    $$<<mathematical expression>>$$
-    ```
+   ```plain
+   $$<<mathematical expression>>$$
+   ```
 
-    **Example**
+   **Example**
 
-    ```plain
-    $$\sqrt{3}+1$$
-    ```
+   ```plain
+   $$\sqrt{3}+1$$
+   ```
 
-    **Output**
+   **Output**
 
-    $$\sqrt{3}+1$$
+   $$\sqrt{3}+1$$
 
 3. **Mixed Expressions:**
 
-    **Syntax**
-    
-    ```
-    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
-    
-    $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-    ```
+   **Syntax**
 
-    **Output**
+   ```
+   When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
 
-    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
-    
-    $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+   $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+   ```
+
+   **Output**
+
+   When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+
+   $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 For more information on how to write mathematical expressions, [visit this page](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
 
 ## DropDown
 
 1. DropDown with Open:
- <br>**Syntax**
- ```
- <details open>
- <summary>Want to know more? </summary>
- <br>
- This is called a DropDown.
- <br>Yes! This is possible using Markdown.
- <br>You can hide some content from the user.
- <br>They can view the detailed message only when they click.
- </details>
- ```
- **Output**
+   <br>**Syntax**
+
+```
+<details open>
+<summary>Want to know more? </summary>
+<br>
+This is called a DropDown.
+<br>Yes! This is possible using Markdown.
+<br>You can hide some content from the user.
+<br>They can view the detailed message only when they click.
+</details>
+```
+
+**Output**
+
  <details open>
  <summary>Want to know more?</summary>
  <br>
@@ -534,27 +547,30 @@ For more information on how to write mathematical expressions, [visit this page]
  <br>They can view the detailed message only when they click.
  </details>
 
- **Explanation**
- <br>The *details* tags are used to indicate that we want a dropdown.
- <br>The keyword *open* in details tag is causing the dropdown to stay opened even before the user clicks on it, which messes up the fun!
- <br>It looks like a question and answer - this is not our purpose, we fix this in the below example.
- <br>Between the *summary* tags, we write the heading/content to be displayed.
- <br>After *summary*, we can include the detailed content.
- <br>However, when a user clicks on the arrow, the detailed content gets hidden; with another the click, the content is displayed again.
+**Explanation**
+<br>The _details_ tags are used to indicate that we want a dropdown.
+<br>The keyword _open_ in details tag is causing the dropdown to stay opened even before the user clicks on it, which messes up the fun!
+<br>It looks like a question and answer - this is not our purpose, we fix this in the below example.
+<br>Between the _summary_ tags, we write the heading/content to be displayed.
+<br>After _summary_, we can include the detailed content.
+<br>However, when a user clicks on the arrow, the detailed content gets hidden; with another the click, the content is displayed again.
 
 2. DropDown without Open:
- <br>**Syntax**
- ```
- <details>
- <summary>Want to know more? Click Here</summary>
- <br>
- This is called a DropDown.
- <br>Yes! This is possible using Markdown.
- <br>You can hide some content from the user.
- <br>They can view the detailed message only when they click.
- </details>
- ```
- **Output**
+   <br>**Syntax**
+
+```
+<details>
+<summary>Want to know more? Click Here</summary>
+<br>
+This is called a DropDown.
+<br>Yes! This is possible using Markdown.
+<br>You can hide some content from the user.
+<br>They can view the detailed message only when they click.
+</details>
+```
+
+**Output**
+
  <details>
  <summary>Want to know more? Click Here</summary>
  <br>
@@ -564,20 +580,22 @@ For more information on how to write mathematical expressions, [visit this page]
  <br>They can view the detailed message only when they click.
  </details>
 
- **Explanation**
- <br>The *details* tags are used to indicate that we want a dropdown.
- <br>This is what we require, the detailed content should be hidden initially. With a click, the information should be displayed.
- <br>Between the *summary* tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
- <br>After *summary*, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
+**Explanation**
+<br>The _details_ tags are used to indicate that we want a dropdown.
+<br>This is what we require, the detailed content should be hidden initially. With a click, the information should be displayed.
+<br>Between the _summary_ tags, we write the heading/content to be displayed inside or what we refer to as **DROPDOWN TITLE**.
+<br>After _summary_, we can include the detailed content, this will be shown only when the user clicks the dropdown title.
 
 ## Diagrams
 
 **Syntax:**
-- Use the *mermaid* syntax
-- Additional syntax: TD means Top Down, LR means Left Right, BT means Bottom Top, RL means Right Left 
+
+- Use the _mermaid_ syntax
+- Additional syntax: TD means Top Down, LR means Left Right, BT means Bottom Top, RL means Right Left
 
 TD variant
-```
+
+````
     ```mermaid
         graph TD;
             A-->B;
@@ -585,20 +603,21 @@ TD variant
             C-->D;
             D-->E;
     ```
-```
+````
 
 **Output:**
 
- ```mermaid
-        graph TD;
-            A-->B;
-            B-->C;
-            C-->D;
-            D-->E;
+```mermaid
+       graph TD;
+           A-->B;
+           B-->C;
+           C-->D;
+           D-->E;
 ```
 
 LR variant
-```
+
+````
     ```mermaid
         graph LR;
             A-->B;
@@ -606,20 +625,21 @@ LR variant
             C-->D;
             D-->E;
     ```
-```
+````
 
 **Output:**
 
- ```mermaid
-        graph LR;
-            A-->B;
-            B-->C;
-            C-->D;
-            D-->E;
+```mermaid
+       graph LR;
+           A-->B;
+           B-->C;
+           C-->D;
+           D-->E;
 ```
 
 BT variant
-```
+
+````
     ```mermaid
         graph BT;
             A-->B;
@@ -627,20 +647,21 @@ BT variant
             C-->D;
             D-->E;
     ```
-```
+````
 
 **Output:**
 
- ```mermaid
-        graph BT;
-            A-->B;
-            B-->C;
-            C-->D;
-            D-->E;
+```mermaid
+       graph BT;
+           A-->B;
+           B-->C;
+           C-->D;
+           D-->E;
 ```
 
 RL variant
-```
+
+````
     ```mermaid
         graph RL;
             A-->B;
@@ -648,23 +669,23 @@ RL variant
             C-->D;
             D-->E;
     ```
-```
+````
 
 **Output:**
 
- ```mermaid
-        graph RL;
-            A-->B;
-            B-->C;
-            C-->D;
-            D-->E;
+```mermaid
+       graph RL;
+           A-->B;
+           B-->C;
+           C-->D;
+           D-->E;
 ```
 
 ## FootNote
 
 **Explanation:**
-<br>Footnotes allow you to add notes and references without cluttering the body of the document. 
-<br>When you create a footnote, a superscript number with a link appears where you added the footnote reference. 
+<br>Footnotes allow you to add notes and references without cluttering the body of the document.
+<br>When you create a footnote, a superscript number with a link appears where you added the footnote reference.
 <br>Readers can click the link to jump to the content of the footnote at the bottom of the page.
 
 **Syntax:**
@@ -677,14 +698,13 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 [^bignote]: Here's one with multiple paragraphs and code.
 
 ```
+
 **Output:**
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 [^1]: This is the first footnote.
-
 [^bignote]: Here's one with multiple paragraphs and code.
-
 
 ## Comments
 
@@ -692,17 +712,18 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 <br>Comments are text notes added to a program or a document to provide explanatory information.
 <br>You can hide content from the rendered Markdown by placing the content in a comment.
 
-
 **Syntax**
 
 ```
-This is Line Number 1. 
+This is Line Number 1.
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
 This is Line Number 3.
 ```
 
 **Output**
 
-This is Line Number 1. 
+This is Line Number 1.
+
 <!---This is Line Number 2 and would not be rendered as this is a comment. --->
+
 This is Line Number 3.
