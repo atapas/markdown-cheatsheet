@@ -303,7 +303,9 @@ or
 
 **Output:**
 
-:mango: :lemon: :man: :car:
+:mango: :lemon: :man: :car: :fearful:
+
+> NOTE: If you want to more emojis you can type : and type a word to search for emojis like this ``` :mango: ``` + This syntax may not be supported on all the markdown variant platforms.
 
 ## Alerts
 
